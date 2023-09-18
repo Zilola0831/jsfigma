@@ -1,0 +1,23 @@
+@media screen and (max-width:1050px) {
+    header{
+        padding-top: 40px;
+       
+        background-position: -44px -66px, 630px 0px, -102px 464px, 480px 764px, 441px 236px, 520px 934px;
+        .container{
+            max-width: 952px;
+            nav{
+                .nav2{
+                    .nav2-search{
+                       i{
+                        color: black;
+                       }
+                    }
+                }
+            }
+            .hero1{
+                max-width: 880px;
+            }
+            
+        }
+    }
+}

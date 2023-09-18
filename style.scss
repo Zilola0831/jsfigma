@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background: url("./images/Ellipse\ 1.svg"), url("./images/Circle\ 2.png"), url("./images/s5.png"), url("./images/Circle\ 5.svg"), url("./images/Circle\ 6.svg"), url("./images/send.png");
+    background-position: top left, top right, 102px 464px, 734px 764px, 686px 232px, 785px 940px;
+    background-repeat: no-repeat;
+    padding-top: 48px;
+    padding-bottom: -48px;
+    overflow: hidden;
+    
+    .container{
+        max-width: 1240px;
+        margin: 0 auto;
+    
+    //  padding-bottom: 60px;
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 101px;
+            .nav-fixed{
+                display: none;
+            }
+            #burger{
+                display: none;
+            }
+            .nav1{
+                display: flex;
+                align-items: center;
+                gap: 60px;
+                .nav1-logo{
+                    display: flex;
+                    align-items: center;
+                    gap: 5px;
+                    p{
+                        color: var(--text-dark, #292930);
+                        font-family: Poppins;
+                        font-size: 28px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 97.827%; 
+                        letter-spacing: -0.84px;
+                    }
+                }
+                .nav1-ul{
+                    ul{
+                        display: flex;
+                        align-items: center;
+                        gap: 54px;
+                        list-style: none;
+                        li{
+                            a{
+                                border-bottom: 2px solid white;
+                                text-decoration: none;
+                                color: var(--text-grey, #999FAE);
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                letter-spacing: -0.64px;
+                                
+                            }
+                            a:hover{
+                                color: #292930;
+                                border-bottom: 2px solid #292930;
+                                
+                            }
+                            
+                        }
+                    
+
+                    }
+                }
+            }
+            .nav2{
+                display: flex;
+                gap: 40px;
+                align-items: center;
+                .nav2-search{
+                    color: white;
+
+                }
+                .nav2-button{
+                    padding: 24px 47px;
+                    border-radius: 20px;
+                    background: #FAB8C4;
+                    a{
+                        color: #2522BA;
+                        text-align: center;
+                        font-family: Poppins;
+                        font-size: 16px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: normal;
+                        letter-spacing: -0.64px;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }
+        .hero1{
+            max-width: 1040px;
+                width: 100%;
+                margin: 0 auto;
+            .hero{
+                
+                display: flex;          
+                justify-content: space-between;
+                
+                .hero-left{
+                    max-width: 443px;
+                    width: 100%;
+                    p{
+                        color: #292930;
+                        font-family: DM Sans;
+                        font-size: 96px;
+                        font-style: normal;
+                        font-weight: 500;
+                        line-height: 99.327%; /* 95.354px */
+                        letter-spacing: -2.4px;
+                        margin-bottom: 24px;
+                    }
+                    h4{
+                        max-width: 378px;
+                        color: var(--text-grey, #999FAE);
+                        font-family: Poppins;
+                        font-size: 18px;
+                        font-style: normal;
+                        font-weight: 400;
+                        line-height: normal;
+                        margin-bottom: 69px;
+                    }
+                    .hero-buttons{
+                        display: flex;
+                        align-items: center;
+                        gap: 32px;
+                        margin-bottom: 100px;
+                        .hero-button1{
+                            a{
+                                text-decoration: none;
+                                border-radius: 20px;
+                                background: var(--color-primary, #5956E9);
+                                padding: 29px 46px;
+                                color: var(--color-white, #FFF);
+                                text-align: center;
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                letter-spacing: -0.64px;
+
+                            }
+                        }
+                        .hero-button2{
+                            display: flex;
+                            align-items: center;
+                            gap: 16px;
+                            h5{
+                                color: var(--text-grey, #999FAE);
+                                font-family: Poppins;
+                                font-size: 16px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: normal;
+                                letter-spacing: -0.64px;
+                            }
+                        }
+                    }
+                    .hero-end{
+                        display: flex;
+                        gap: 16px;
+                        margin-bottom: 100px;
+                        h3{
+                            color: var(--text-grey, #999FAE);
+                            font-family: Poppins;
+                            font-weight: 500;
+                            line-height: normal;
+                            letter-spacing: -0.64px;
+                        }
+                    }
+                }
+                .hero-right{
+                    position: relative;
+                    max-width: 500px;
+                    width: 100%;
+                    .hero-img1{
+                        position: absolute;
+                        top: 73px;
+                        
+                    }
+                    .hero-img2{
+                        position: absolute;
+                        top: 90px;
+                        left: 15px;
+                        
+                    }
+                    .hero-img3{
+                        position: absolute;
+                        top: 190px;
+                        left: 25px;
+                    
+                    }
+                    .hero-img5{
+                        position: absolute;
+                        top: 570px;
+                        left: 100px;
+                    }
+                    .hero-img4{
+                        position: absolute;
+                        top: 570px;
+                        left: 430px;
+                    }
+                    .hero-img6{
+                        position: absolute;
+                        top: 0px;
+                        left: 370px;
+                        
+                    }
+                    .hero-img7{
+                        position: absolute;
+                        top: 310px;
+                        left: -95px;
+                        
+                    }
+                }
+            }
+            
+        }
+    }
+}

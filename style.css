@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("./images/Ellipse 1.svg"), url("./images/Circle 2.png"), url("./images/s5.png"), url("./images/Circle 5.svg"), url("./images/Circle 6.svg"), url("./images/send.png");
+  background-position: top left, top right, 102px 464px, 734px 764px, 686px 232px, 785px 940px;
+  background-repeat: no-repeat;
+  padding-top: 48px;
+  padding-bottom: -48px;
+  overflow: hidden;
+}
+header .container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+header .container nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 101px;
+}
+header .container nav .nav-fixed {
+  display: none;
+}
+header .container nav #burger {
+  display: none;
+}
+header .container nav .nav1 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+header .container nav .nav1 .nav1-logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+header .container nav .nav1 .nav1-logo p {
+  color: var(--text-dark, #292930);
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 97.827%;
+  letter-spacing: -0.84px;
+}
+header .container nav .nav1 .nav1-ul ul {
+  display: flex;
+  align-items: center;
+  gap: 54px;
+  list-style: none;
+}
+header .container nav .nav1 .nav1-ul ul li a {
+  border-bottom: 2px solid white;
+  text-decoration: none;
+  color: var(--text-grey, #999FAE);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+header .container nav .nav1 .nav1-ul ul li a:hover {
+  color: #292930;
+  border-bottom: 2px solid #292930;
+}
+header .container nav .nav2 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+header .container nav .nav2 .nav2-search {
+  color: white;
+}
+header .container nav .nav2 .nav2-button {
+  padding: 24px 47px;
+  border-radius: 20px;
+  background: #FAB8C4;
+}
+header .container nav .nav2 .nav2-button a {
+  color: #2522BA;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  text-decoration: none;
+}
+header .container .hero1 {
+  max-width: 1040px;
+  width: 100%;
+  margin: 0 auto;
+}
+header .container .hero1 .hero {
+  display: flex;
+  justify-content: space-between;
+}
+header .container .hero1 .hero .hero-left {
+  max-width: 443px;
+  width: 100%;
+}
+header .container .hero1 .hero .hero-left p {
+  color: #292930;
+  font-family: DM Sans;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 99.327%; /* 95.354px */
+  letter-spacing: -2.4px;
+  margin-bottom: 24px;
+}
+header .container .hero1 .hero .hero-left h4 {
+  max-width: 378px;
+  color: var(--text-grey, #999FAE);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 69px;
+}
+header .container .hero1 .hero .hero-left .hero-buttons {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-bottom: 100px;
+}
+header .container .hero1 .hero .hero-left .hero-buttons .hero-button1 a {
+  text-decoration: none;
+  border-radius: 20px;
+  background: var(--color-primary, #5956E9);
+  padding: 29px 46px;
+  color: var(--color-white, #FFF);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+header .container .hero1 .hero .hero-left .hero-buttons .hero-button2 {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+header .container .hero1 .hero .hero-left .hero-buttons .hero-button2 h5 {
+  color: var(--text-grey, #999FAE);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+header .container .hero1 .hero .hero-left .hero-end {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 100px;
+}
+header .container .hero1 .hero .hero-left .hero-end h3 {
+  color: var(--text-grey, #999FAE);
+  font-family: Poppins;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: -0.64px;
+}
+header .container .hero1 .hero .hero-right {
+  position: relative;
+  max-width: 500px;
+  width: 100%;
+}
+header .container .hero1 .hero .hero-right .hero-img1 {
+  position: absolute;
+  top: 73px;
+}
+header .container .hero1 .hero .hero-right .hero-img2 {
+  position: absolute;
+  top: 90px;
+  left: 15px;
+}
+header .container .hero1 .hero .hero-right .hero-img3 {
+  position: absolute;
+  top: 190px;
+  left: 25px;
+}
+header .container .hero1 .hero .hero-right .hero-img5 {
+  position: absolute;
+  top: 570px;
+  left: 100px;
+}
+header .container .hero1 .hero .hero-right .hero-img4 {
+  position: absolute;
+  top: 570px;
+  left: 430px;
+}
+header .container .hero1 .hero .hero-right .hero-img6 {
+  position: absolute;
+  top: 0px;
+  left: 370px;
+}
+header .container .hero1 .hero .hero-right .hero-img7 {
+  position: absolute;
+  top: 310px;
+  left: -95px;
+}/*# sourceMappingURL=style.css.map */

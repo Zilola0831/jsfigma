@@ -1,0 +1,148 @@
+@media screen and (max-width: 872px){
+    header{
+        background: url("./images/mobil1.png"), url("./images/mobil2.png"), url("./images/mobil3.png"), url("./images/mobil4.png");
+        background-repeat: no-repeat;
+        background-position: right 116px, 237px 319px, 311px 450px, right 722px;
+        overflow: initial;
+        .container{
+            max-width: 311px;
+            nav{
+                .nav-fixed{
+                    display: block;
+                }
+                #burger:checked+.nav1-ul{
+                    display: block;
+                    ul{
+                        flex-direction: column;
+                        position: absolute;
+                        left: 0px;
+                        top: 310px;
+                        gap: 100px;
+                        background-color: white;
+                        max-width: 300px;
+                        padding: 30px 0px;
+                        li{
+                            width: 1vw;
+                        }
+                    }
+                }
+                .nav1{
+                        .nav1-logo{
+                            gap: 15px;
+                            .nav1-logo-img{
+                                max-width: 27px;
+                                width: 100%;
+                            }
+                            p{
+                                font-size: 19.4px;
+                            }
+                        }
+                    .nav1-ul{
+                        display: none;
+                        
+                    }
+                }
+                .nav2{
+                    .nav2-button{
+                        display: none;
+                    }
+                }
+            }
+            .hero1{
+                .hero{
+                    flex-wrap: wrap;
+                    .hero-left{
+                        max-width: 276px;
+                        p{
+                            font-size: 60px;
+                        }
+                        h4{
+                            max-width: 230px;
+                            font-size: 16px;
+                        }
+                        .hero-buttons{
+                            .hero-button1{
+                                a{
+                                    padding: 23px 46px;
+                                }
+                            }
+                            .hero-button2{
+                                width: 64px;
+                                height: 64px;
+                                border-radius: 16px;
+                                border: 1px solid var(--stroke-super-light, #E3E6E9);
+                                padding-left: 20px;
+                                h5{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                    .hero-right{
+                       
+                        // overflow: hidden;
+                       .hero-img1{
+                        max-width: 342px;
+                        top: 0px;
+                        left: 0px;
+                        img{
+                            width: 100%;
+                        }
+                       } 
+                       .hero-img2{
+                        max-width: 292px;
+                        top: 10px;
+                        left: 10px;
+                        img{
+                            width: 100%;
+                        }
+                       }
+                       .hero-img3{
+                        max-width: 250px;
+                        top: 65px;
+                        img{
+                            width: 100%;
+                        }
+                        
+                       }
+                    .hero-img6{
+                        top: 20px;
+                        left: 210px;
+                        max-width: 110px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .hero-img7{
+                        max-width: 100px;
+                        top: 130px;
+                        left: -60px;
+                        img{
+                            width: 100%;
+                        }
+                       }
+                    .hero-img5{
+                        max-width: 212px;
+                        top: 270px;
+                        left: 54px;
+                        img{
+                            width: 100%;
+                        }
+  
+                    }   
+                    .hero-img4{
+                        max-width: 40px;
+                        left: 0px;
+                        top: 270px;
+                        left: 256px;
+                        img{
+                            width: 100%;
+                        }
+                    }
+
+                    }
+                }
+            }
+        }
+    }
+}
