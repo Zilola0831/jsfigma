@@ -22,7 +22,7 @@ header .container nav {
   justify-content: space-between;
   margin-bottom: 101px;
 }
-header .container nav .nav-fixed {
+header .container nav label {
   display: none;
 }
 header .container nav #burger {
