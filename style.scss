@@ -12,7 +12,7 @@ header{
     overflow: hidden;
     
     .container{
-        max-width: 1240px;
+        max-width: 1320px;
         margin: 0 auto;
     
     //  padding-bottom: 60px;
@@ -21,6 +21,7 @@ header{
             align-items: center;
             justify-content: space-between;
             margin-bottom: 101px;
+            padding: 0px 40px;
             label{
                 display: none;
             }
@@ -53,7 +54,6 @@ header{
                         list-style: none;
                         li{
                             a{
-                                border-bottom: 2px solid white;
                                 text-decoration: none;
                                 color: var(--text-grey, #999FAE);
                                 font-family: Poppins;
@@ -63,16 +63,29 @@ header{
                                 line-height: normal;
                                 letter-spacing: -0.64px;
                                 
-                            }
-                            a:hover{
-                                color: #292930;
-                                border-bottom: 2px solid #292930;
-                                
-                            }
-                            
-                        }
+                            }                          
+                          }
+                          li::after{
+                            content: '';
+                            width: 0%;
+                            height: 2px;
+                            background:#5956E9 ;
+                            display: block;
+                            margin: auto;
+                            transition: 2s;
+                            margin-top: 5px;
+                          }
+                          li:hover::after{
+                            width: 100%;
+                          }
+                          a:hover{
+                            color: black;
+                          }
                     
 
+                    }
+                    .hero-right{
+                        display: none;
                     }
                 }
             }
@@ -85,10 +98,11 @@ header{
 
                 }
                 .nav2-button{
-                    padding: 24px 47px;
-                    border-radius: 20px;
-                    background: #FAB8C4;
+                   
                     a{
+                        padding: 24px 47px;
+                        border-radius: 20px;
+                        background: #FAB8C4;
                         color: #2522BA;
                         text-align: center;
                         font-family: Poppins;
@@ -98,14 +112,16 @@ header{
                         line-height: normal;
                         letter-spacing: -0.64px;
                         text-decoration: none;
+                        cursor: pointer;
                     }
                 }
             }
         }
         .hero1{
-            max-width: 1040px;
+            max-width: 1120px;
                 width: 100%;
                 margin: 0 auto;
+                padding: 0px 40px;
             .hero{
                 
                 display: flex;          
@@ -123,6 +139,7 @@ header{
                         line-height: 99.327%; /* 95.354px */
                         letter-spacing: -2.4px;
                         margin-bottom: 24px;
+                        
                     }
                     h4{
                         max-width: 378px;

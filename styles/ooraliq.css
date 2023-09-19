@@ -1,0 +1,45 @@
+@media screen and (max-width: 1000px) {
+  header {
+    background: url("./images/Ellipse 1.svg"), url("./images/Circle 6.svg"), url("./images/mobil1.png"), url("./images/Circle 5.svg");
+    background-repeat: no-repeat;
+    background-position: -60px -60px, 390px 200px, right 105px, 460px 760px;
+  }
+  header .container nav {
+    padding: 0px 32px;
+  }
+  header .container nav .nav2 .nav2-button {
+    display: none;
+  }
+  header .container .hero1 {
+    padding: 0px 32px;
+  }
+  header .container .hero1 .hero .hero-right {
+    position: relative;
+  }
+  header .container .hero1 .hero .hero-right .hero-img1 img {
+    width: 115%;
+  }
+  header .container .hero1 .hero .hero-right .hero-img2 img {
+    width: 112%;
+  }
+  header .container .hero1 .hero .hero-right .hero-img3 {
+    top: 175px;
+    left: 32px;
+  }
+  header .container .hero1 .hero .hero-right .hero-img3 img {
+    width: 96%;
+  }
+  header .container .hero1 .hero .hero-right .hero-img5 {
+    top: 460px;
+    left: 65px;
+  }
+  header .container .hero1 .hero .hero-right .hero-img5 img {
+    width: 90%;
+  }
+  header .container .hero1 .hero .hero-right .hero-img7 {
+    top: 274px;
+  }
+  header .container .hero1 .hero .hero-right .hero-img7 img {
+    width: 95%;
+  }
+}/*# sourceMappingURL=ooraliq.css.map */
